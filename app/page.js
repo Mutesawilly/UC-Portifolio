@@ -17,8 +17,8 @@ export default function Home() {
         <div className="relative flex flex-col items-center justify-center">
           <div className="group flex items-center justify-center">
             <Image src="/images.jpg" alt="Profile picture" width={180} height={100} className="cursor-pointer hover:rotate-z-15 ease-in duration-100" />
-            <p className="absolute top-65 rotate-45 left-140 text-4xl hidden group-hover:block">⋆｡‧˚ʚ🍫ɞ˚‧｡⋆</p>
-            <p className="absolute top-5 rotate-400 right-135 text-4xl hidden group-hover:block">༄˖°.☕️.ೃ࿔📚*:･</p>
+            <p className="absolute top-65 rotate-45 left-140 text-4xl hidden group-hover:block ease-in duration-100">⋆｡‧˚ʚ🍫ɞ˚‧｡⋆</p>
+            <p className="absolute top-5 rotate-400 right-135 text-4xl hidden group-hover:block ease-in duration-100">༄˖°.☕️.ೃ࿔📚*:･</p>
           </div>
           <div className="flex flex-col items-center w-[60%] text-center">
             <h1 className="font-[girl-next-door] text-5xl py-7">About Me</h1>
