@@ -1,14 +1,10 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { The_Girl_Next_Door } from 'next/font/google';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const theGirlNextDoor = The_Girl_Next_Door({
+  weight: '400',
+  subsets: ['cursive'],
+  variable:'--font-girl-next-door',
 });
 
 export const metadata = {
@@ -19,9 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased suppressHydrationWarning`}
-      >
+      <body suppressHydrationWarning>
         {children}
       </body>
     </html>
